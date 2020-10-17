@@ -7,7 +7,7 @@
 PKGEXT='.pkg.tar.xz'
 _realname=winpty-fixes
 pkgname="${_realname}"
-pkgver=0.4.3
+pkgver=0.4.4
 pkgrel=2
 pkgdesc="A Windows software package providing an interface similar to a Unix pty-master for communicating with Windows console programs (with some fixes)"
 arch=('i686' 'x86_64')

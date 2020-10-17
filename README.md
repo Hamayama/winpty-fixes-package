@@ -33,7 +33,7 @@
    ( c:\work にパッケージファイルを置いた場合)
    ```
    cd /c/work
-   pacman -U winpty-fixes-0.4.3-2-x86_64.pkg.tar.xz
+   pacman -U winpty-fixes-0.4.4-2-x86_64.pkg.tar.xz
    ```
 
 - 以上です。
