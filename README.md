@@ -63,8 +63,10 @@
 ## 環境等
 - OS
   - Windows 10 (version 1909) (64bit)
+  - Windows 8.1 (64bit)
 - 環境
-  - MSYS2/MinGW-w64 (64bit) (gcc version 10.2.0 (Rev1, Built by MSYS2 project))
+  - MSYS2/MinGW-w64 (64bit) (gcc version 10.2.0 (Rev1, Built by MSYS2 project)) (Windows 10)
+  - MSYS2/MinGW-w64 (64bit) (gcc version 9.2.0 (Rev2, Built by MSYS2 project)) (Windows 8.1)
 
 ## 履歴
 - 2020-10-17 v0.4.4-dev-fix0002 のパッケージファイルを作成
