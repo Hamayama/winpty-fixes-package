@@ -24,7 +24,7 @@
    適当な作業用フォルダに置いてください。  
    (作業用フォルダのパスには、空白を入れないようにしてください)  
    
-   https://github.com/Hamayama/winpty-fixes/releases
+   https://github.com/Hamayama/winpty-fixes-package/releases
 
 3. パッケージファイルのインストール  
    ダウンロードしたパッケージファイルを、開発環境にインストールします。  
@@ -72,4 +72,4 @@
 - 2020-10-17 v0.4.4-dev-fix0002 のパッケージファイルを作成
 
 
-(2020-10-17)
+(2020-10-18)
