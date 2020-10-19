@@ -3,7 +3,7 @@
 
 ## 概要
 - winpty-fixes ( https://github.com/Hamayama/winpty-fixes ) の  
-  MSYS2 用のパッケージファイルを配布するリポジトリです。
+  MSYS2 環境用のパッケージファイルを配布するリポジトリです。
 
 - PKGBUILD ファイルは、以下のものをベースに変更しました。  
   https://github.com/msys2/MSYS2-packages/blob/41e554277125055d2f99e2ef580da5dbe51304f0/winpty/PKGBUILD
@@ -32,8 +32,8 @@
    プログラムメニューから MSYS2 の MinGW 64bit Shell を起動して、以下のコマンドを実行してください。  
    ( c:\work にパッケージファイルを置いた場合)
    ```
-   cd /c/work
-   pacman -U winpty-fixes-0.4.4-2-x86_64.pkg.tar.xz
+     cd /c/work
+     pacman -U winpty-fixes-0.4.4-2-x86_64.pkg.tar.xz
    ```
 
 - 以上です。
@@ -42,7 +42,7 @@
 ## 保守用メモ
 1. 事前に、ビルドに必要なパッケージをインストールする
    ```
-   pacman -S git mingw-w64-cross-gcc mingw-w64-cross-crt-git
+     pacman -S git mingw-w64-cross-gcc mingw-w64-cross-crt-git
    ```
    (すでにインストール済みであれば本手順は不要)
 
@@ -52,11 +52,11 @@
 3. プログラムメニューから MSYS2 の MinGW 64bit Shell を起動して、  
    以下のコマンドを実行すると、パッケージファイルが生成される
    ```
-   cd /c/work/winpty-fixes-package
-   makepkg
+     cd /c/work/winpty-fixes-package
+     makepkg
    ```
 
-4. GitHub の Release ページでリリースを作成して、  
+4. GitHub の Releases ページでリリースを作成して、  
    生成したパッケージファイルをアップロードする。
 
 
@@ -72,4 +72,4 @@
 - 2020-10-17 v0.4.4-dev-fix0002 のパッケージファイルを作成
 
 
-(2020-10-18)
+(2020-10-19)
